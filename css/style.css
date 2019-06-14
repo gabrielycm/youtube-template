@@ -104,7 +104,9 @@
 .padding-divs * {
     padding: 5px;
 }
-
+.margin-left {
+    margin-left: 10px;
+}
 .margin-divs * {
     margin-top: 2px;
 }
