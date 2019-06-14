@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.fonte {
+    font-family: 'Roboto', sans-serif;
+}
+.flex {
+    display: flex;
+}
+.a-center {
+    align-items: center;
+}
+.j-center {
+    justify-content: center;
+}
+.j-between {
+    justify-content: space-between;
+}
+.logo {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.topo {
+    width: 95vw;
+}
+.logo img {
+    height: 20px;
+    width: 20px;
+    margin-right:3px;
+}
+.logo sup {
+    font-size: 10px;
+}
+.logo span{
+}
+.pesquisar{
+    width: 600px;
+    height: 30px;
+    border: 1px solid #CCC;
+}
+.pesquisar input {
+    width: 600px;
+    height: 30px;
+    border: none;
+    background:transparent;
+}
+.pesquisar img {
+    height: 20px;
+    width: 20px;
+}
+.pesquisar button {
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #CCC;
+    background-color: #CCC;
+}
+.list-sty li {
+    list-style-type: none;
+}
+.border {
+    border-bottom: 4px solid rgba(235, 235, 235, 0.39);
+}
+.icones img {
+    padding: 10px;
+    height: 22px;
+    width: 22px;
+}
+.icones span img{ 
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
+}
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+.box {
+    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+.box-1 {
+    width: 55vw;
+    height: 1800px;
+    margin-right: 20px;
+    font-family: 'Roboto';
+}
+.box-2 {
+    width: 30vw;
+    height: 70vh;
+    margin-right: 30px;
+}
+.box-text {
+    font-size: 22px;
+    width:300px;
+    font-family: 'Roboto', sans-serif;
+}
+.thumbs img {
+    height: 94px;
+    width: 168px;
+}
+.padding-divs * {
+    padding: 5px;
+}
+
+.margin-divs * {
+    margin-top: 2px;
+}
+.margin-divs-2 * {
+    margin-top: 8px;
+}
+@media only screen and (max-width: 900px) {
+    .pesquisar {
+        display: none;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1 {
+        margin-top: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box-2 {
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%
+    }
+    .proxim {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
